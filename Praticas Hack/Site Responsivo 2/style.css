@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+section{
+    background-color: rgb(138, 255, 127);
+    width: 1200px;
+}
+
+@media(max-width: 1200px) {
+    section{
+        width: 1000px;
+        background-color: brown;
+
+    }
+}
+
+@media(max-width: 1200px) {
+    section{
+        width: 500px;
+        background-color: rgb(42, 65, 165);
+
+    }
+}
